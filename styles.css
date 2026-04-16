@@ -35,4 +35,19 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    margin-top: -45px;
+}
+
+#DisplayWinnings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
 }
