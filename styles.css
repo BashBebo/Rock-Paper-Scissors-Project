@@ -1,0 +1,31 @@
+body {
+      font-family: Arial, Helvetica, 'Roboto', 'Open Sans', Georgia;
+}
+
+
+#UsersBtns {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    height: 30vh;
+}
+
+#RockButton, #ScissorsButton, #PaperButton {
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    transition: ease-in-out 0.1s;
+}
+
+
+#RockButton:hover, #ScissorsButton:hover, #PaperButton:hover {
+    transition: ease-in-out 0.1s;
+    transform: scaleX(1.1);
+}
